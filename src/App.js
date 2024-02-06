@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      Homepage
+      Homepage of Little lemon App
     </div>
   );
 }
