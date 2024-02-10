@@ -1,11 +1,17 @@
-
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-
+import Homepage from './pages/Homepage';
 function App() {
   return (
-    <div className="App">
-      Homepage of Little lemon App
-    </div>
+    <BrowserRouter>
+    <Routes>
+      
+        <Route index path="/" element={<Homepage />} />
+       
+      
+    </Routes>
+  </BrowserRouter>
   );
 }
 
