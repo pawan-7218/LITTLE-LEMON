@@ -1,16 +1,23 @@
 import React from 'react'
 import Button from './Button'
+import restra from '../Assests/restauranfood.jpg'
+import styles from '../components/MyComponent.module.css'
 const HeroSection = () => {
+  const pa = {
+    font:{maxWidth:'300px'}
+  }
   return (
+    <div className={styles.hero}>
     <div>
-    <div>
-      <h1>Your Brand Name</h1>
-      <p>Location: Your Location</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <h1 className={styles.titles}>Little Lemon</h1>
+      <h3 className={styles.subtitles}>Location: Chicago</h3>
+      <p className={styles.para} style={pa.font}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+       Ut enim ad minim veniam.</p>
       <Button innerText="Book A Table"/>
     </div>
     <div>
-      <img src="restaurant-image.jpg" alt="Restaurant" />
+      <img src={restra} alt="Restaurant" />
     </div>
   </div>
   )

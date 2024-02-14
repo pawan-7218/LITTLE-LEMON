@@ -1,15 +1,18 @@
 import React from 'react'
 import Navbar from './Navbar'
-const Header = () => {
+import Logo from '../Assests/Logo.svg'
+import styles from '../components/MyComponent.module.css'
+const Header = (props) => {
+ 
   return (
-    <>
-    <header>
+    
+    <header className={`${styles.header}`}>
     <div >
-      <img src="logo.png" alt="Food App Logo"/>
+      <img width={250} src={Logo} alt="Food App Logo"/>
     </div>
     <Navbar/>
     </header>
-    </>
+    
   )
 }
 

@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from '../components/Header-Homepage'
-import HeroSection from '../components/Hero-Section'
 import MainHomepage from '../components/MainHomepage'
 import Footer from '../components/Footer'
-
+import styles from '../components/MyComponent.module.css'
 const Homepage = () => {
   
   return (
-    <>
-     <Header/>
-<HeroSection/>
-<MainHomepage/>
-<Footer/>
-    </>
+    <div className={styles.container}>
+     <Header className="header"/>
+     <MainHomepage className="main"/>
+
+     <Footer className="footer"/>
+</div>
+    
    
   )
 }

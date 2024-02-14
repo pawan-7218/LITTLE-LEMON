@@ -1,16 +1,18 @@
 import React from 'react'
 import Specials from './Specials'
 import Testimonials from './Testimonials'
-import About from './About'
+import HeroSection from './Hero-Section'
+import styles from '../components/MyComponent.module.css'
 
-const MainHomepage = () => {
+const MainHomepage = (props) => {
     
   return (
-   <div>
+   <main className={styles.main}>
+    <HeroSection/>
    <Specials/>
    <Testimonials/>
-   <About/>
-   </div>
+   </main>
+   
   )
 }
 

@@ -1,0 +1,30 @@
+.formcontainer{
+    background-color:#adb1af;
+    width: 70rem;
+    height: 30rem;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 6px 6px 6px 2px #333333,
+    -2px -2px 1px 1px #333333 ;
+}
+.bookingform{
+    display: grid;
+     max-width: 100%;
+      gap: 20px ;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: 40% 40% 20% ;
+      align-items: center;
+}
+.item1{
+    grid-column: 1/4;
+    grid-row:1/2 ;
+}
+.item2{
+    grid-column: 1/4;
+    grid-row:2/3 ;
+}
+.item3{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+}

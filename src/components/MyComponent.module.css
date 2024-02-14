@@ -1,0 +1,187 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% 50% 40%;
+    gap: 1rem 1rem;
+   
+}
+.header {
+grid-column: 2/12;
+grid-row: 1/2;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color:white;
+    color: white;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust size as needed */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+    
+    
+  }
+  
+  .navbar a {
+    color:black;
+    text-decoration: none;
+    font-family: "'Karla' serif";
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    
+  }
+  .navbar a:last-child{
+    color: rgb(60, 57, 57);
+  }
+  .navbar a:active {
+    color: #EDEFEE;
+  }
+ .main{
+    grid-column: 1/13;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    
+ }
+ .footer{
+    grid-column: 2/12;
+    grid-row: 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color: #FBDABB;
+ }
+ .hero{
+    background-color: #495E57;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1rem;
+   
+ 
+ }
+ .hero div:first-child{
+    margin-left: 8rem;
+ }
+.hero img{
+    max-width: 200px;
+    height: 300px;
+    position:absolute;
+    border-radius: 10px;
+    
+    
+
+}
+.titles{
+    font-family: "'Markazi Text' serif";
+    font-size: 64px;
+    font-weight: Medium;
+    color: #F4CE14;
+}
+.subtitles{
+    font-family: "'Markazi Text' serif";
+    font-size: 40px;
+    font-weight: normal;
+    color: #EDEFEE;
+}
+.para{
+    font-family: "'Karla' serif";
+    font-size: 16px;
+    font-weight: normal;
+    color: #EDEFEE;
+
+}
+.hero div:nth-child(2){
+    position: relative;
+    right: 30rem;
+    margin-top: 0.5rem;
+    overflow-y: visible;
+}
+.special{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.special1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 9rem;
+    
+}
+.section{
+    font-family: "'Karla' serif";
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 25rem;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 9rem;
+    padding-right: 1rem;
+    
+    
+}
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem;
+}
+.testimonial h2{
+  font-family: "'Karla' serif";
+  font-size: 40px;
+  font-weight: bolder;
+}
+.bookingpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #495E57;
+  padding: 1rem;
+  height: 100vh;
+}
+.bookingpage h1{
+  font-family: "'Markazi Text' serif";
+  font-size: 64px;
+  font-weight: medium;
+color: #F4CE14;
+margin-bottom: 1rem;
+}

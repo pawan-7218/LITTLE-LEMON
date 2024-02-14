@@ -1,15 +1,18 @@
 import React from 'react'
-
+import './DishCard.css'
+import truck from '../Assests/truck.png'
 const DishCard = ({dish}) => {
   return (
-    <div className="dish-card">
-    <img src={dish.photo} alt={dish.title} className="dish-photo" />
-    <div className="dish-details">
-      <h2 className="dish-title">{dish.title}</h2>
-      <p className="dish-price">${dish.price}</p>
-      <p className="dish-description">{dish.description}</p>
-      <a href={dish.orderLink} className="order-link">
-        Order Delivery <i className="fas fa-truck"></i>
+    <div className='dishcard'>
+    <img src={dish.photo} alt={dish.title} className="dishphoto" />
+    <div className="dishdetails">
+      <div className='dish1'>
+      <h2 className="dishtitle">{dish.title}</h2>
+      <p className="dishprice">${dish.price}</p>
+      </div>
+      <p className="dishdescription">{dish.description}</p>
+      <a href={dish.orderLink}  className="orderlink">
+        Order Delivery <span><img src={truck} width={20} height={20}/></span>
       </a>
     </div>
   </div>
