@@ -14,7 +14,7 @@ const HeroSection = () => {
       <p className={styles.para} style={pa.font}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
        Ut enim ad minim veniam.</p>
-      <Button innerText="Book A Table"/>
+      <Button path='/reservation' innerText="Book A Table"/>
     </div>
     <div>
       <img src={restra} alt="Restaurant" />
