@@ -17,7 +17,7 @@ height: 100%;
 }
 .doormatnavigation a{
     text-decoration: none;
-    color: #333333;
+    color: #e4dddd;
     font-family: "'Karla' serif";
     font-size: 18px;
     font-weight: bold;
@@ -30,9 +30,11 @@ height: 100%;
 .doormatnavigation a:hover{
     text-decoration: underline;
     background-color: antiquewhite;
+    color: black;
 }
 .contactinfo{
     font-family: "'Karla' serif";
     font-size: 16px;
     font-weight: medium;
+    color:#e4dddd ;
 }

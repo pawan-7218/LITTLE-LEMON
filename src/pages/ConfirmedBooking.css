@@ -1,0 +1,14 @@
+.bookingc{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: "'Karla' serif";
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 1rem 0;
+}

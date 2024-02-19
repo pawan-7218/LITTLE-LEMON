@@ -1,4 +1,5 @@
 import React ,{useReducer} from 'react'
+import Button from '../components/Button'
 import { useNavigate } from 'react-router-dom'
 import styles from '../components/MyComponent.module.css'
 import BookingForm from '../components/BookingForm'
@@ -35,6 +36,7 @@ const submitForm = (formData) => {
   
   return (
     <div className={styles.bookingpage}>
+      <div className={styles.backhome}><Button path='/' innerText='Back to Home'/></div>
       <main>
       <h1>Reserve A Table</h1>
         <BookingForm dispatch={dispatch} submitForm={submitForm} availableTimes={availableTimes}/>

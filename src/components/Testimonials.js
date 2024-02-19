@@ -18,6 +18,18 @@ const Testimonials = () => {
           username: 'Jane Smith',
           review: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
         },
+        {id:2,
+          rating: 4,
+          userPhoto: user2,
+          username: 'Jane Smith',
+          review: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        },
+        {id:2,
+          rating: 4,
+          userPhoto: user2,
+          username: 'Jane Smith',
+          review: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        },
         
       ];
   return (
