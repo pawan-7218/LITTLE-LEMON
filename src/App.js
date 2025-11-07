@@ -1,4 +1,4 @@
-
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Homepage from './pages/Homepage';
@@ -10,7 +10,7 @@ import OrderOnlinePage from "./pages/OrderOnlinePage";
 import Login from "./pages/Login";
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
     <Routes>
       
         <Route index path="/" element={<Homepage />} />
@@ -23,7 +23,7 @@ function App() {
       
       
     </Routes>
-  </BrowserRouter>
+  </Router>
   );
 }
 
