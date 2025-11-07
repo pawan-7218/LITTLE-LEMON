@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LITTLE-LEMON/static/css/main.e203e352.css",
+    "main.js": "/LITTLE-LEMON/static/js/main.55ca79b4.js",
+    "static/js/592.4b09ec12.chunk.js": "/LITTLE-LEMON/static/js/592.4b09ec12.chunk.js",
+    "static/media/mario.jpg": "/LITTLE-LEMON/static/media/mario.7f44c6d6e341a27d14b3.jpg",
+    "static/media/bruchetta.svg": "/LITTLE-LEMON/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/B.jpg": "/LITTLE-LEMON/static/media/B.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greeksalad.jpg": "/LITTLE-LEMON/static/media/greeksalad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/LITTLE-LEMON/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/Logo.svg": "/LITTLE-LEMON/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/4.jpg": "/LITTLE-LEMON/static/media/4.7bf88214d4bceccee0aa.jpg",
+    "static/media/3.jpg": "/LITTLE-LEMON/static/media/3.0d9b24cab171b0c7e720.jpg",
+    "index.html": "/LITTLE-LEMON/index.html",
+    "main.e203e352.css.map": "/LITTLE-LEMON/static/css/main.e203e352.css.map",
+    "main.55ca79b4.js.map": "/LITTLE-LEMON/static/js/main.55ca79b4.js.map",
+    "592.4b09ec12.chunk.js.map": "/LITTLE-LEMON/static/js/592.4b09ec12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e203e352.css",
+    "static/js/main.55ca79b4.js"
+  ]
+}
