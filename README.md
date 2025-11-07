@@ -40,6 +40,11 @@ The project is inspired by the *Little Lemon* brand from the Meta Front-End Deve
 
 
 ---
+---
+🌍 Live Demo
+Check out the live website here: [Live Demo](https://username.github.io/repo-name/)
+
+
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**
