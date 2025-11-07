@@ -1,0 +1,94 @@
+.order-section {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #fefae0;
+}
+
+.order-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.order-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.order-item button {
+  background-color: #495e57;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.order-item button:hover {
+  background-color: #f4ce14;
+  color: #495e57;
+}
+
+.cart-summary {
+  margin: auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.cart-item button {
+  margin: 0 0.2rem;
+  background-color: #495e57;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #f4ce14;
+  color: #495e57;
+}
+
+.clear-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #b71c1c;
+}
+
+.place-btn {
+  background-color: #495e57;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.place-btn:hover {
+  background-color: #f4ce14;
+  color: #495e57;
+}

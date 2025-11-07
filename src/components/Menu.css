@@ -1,0 +1,61 @@
+.menu-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #fefae0;
+}
+
+.menu-section h2 {
+  color: #495e57;
+  margin-bottom: 2rem;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-card h3 {
+  color: #495e57;
+  margin: 0.5rem 0;
+}
+
+.menu-card span {
+  color: #f4ce14;
+  font-weight: bold;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.menu-card button {
+  background-color: #495e57;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu-card button:hover {
+  background-color: #f4ce14;
+  color: #495e57;
+}
