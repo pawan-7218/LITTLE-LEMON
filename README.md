@@ -30,13 +30,13 @@ The project is inspired by the *Little Lemon* brand from the Meta Front-End Deve
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page Screenshot](Assests/home.png)
-(Assests/home1.png)
+![Home Page Screenshot](./src/Assests/home.png)
+![Home Page Screenshot](./src/Assests/home1.png)
 
 ### 🛒 Order Online
-![Order Online Screenshot](Assests/orderss.png)
+![Order Online Screenshot](./src/Assests/orderss.png)
 ### menu
-![menu Screenshot](Assests/menuss.png)
+![menu Screenshot](./src/Assests/menuss.png)
 
 
 ---
